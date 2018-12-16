@@ -50,7 +50,7 @@ public class SpringSecurityApplicationTests {
 				.andExpect(MockMvcResultMatchers.status().isOk())//返回状态码为成功(200)
 				.andExpect(MockMvcResultMatchers.jsonPath("$.username").value("tom"))//json中要有username要有tom
 				.andReturn().getResponse().getContentAsString();//可以接收响应回来的json传
-		System.out.println(result);
+		System.out.println(result+"abc");
 
 	}
 
