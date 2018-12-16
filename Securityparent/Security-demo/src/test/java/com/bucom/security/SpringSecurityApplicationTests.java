@@ -1,5 +1,6 @@
 package com.bucom.security;
 
+import com.alibaba.fastjson.JSONObject;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +15,9 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -53,5 +57,15 @@ public class SpringSecurityApplicationTests {
 		System.out.println(result+"abc");
 
 	}
+	@Test
+	public void putUpdateSuccess(){
+		Map<String,Object>map=new HashMap<>();
+		map.put("1","abc");
+		map.put("2","asd");
+		JSONObject jsonObject=new JSONObject(map);
+		System.out.println(jsonObject);
+
+	}
+
 
 }
