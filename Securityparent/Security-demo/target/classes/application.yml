@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://node2:3306/Security?useUnicode=yes&characterEncoding=utf-8
+    password: root
+    username: root
+  session:
+    store-type: none
+server:
+  port: 8050
+security:
+  basic:
+    enabled: false
