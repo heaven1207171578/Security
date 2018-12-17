@@ -11,3 +11,6 @@ server:
 security:
   basic:
     enabled: false
+logging:
+  level:
+    root: info

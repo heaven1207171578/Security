@@ -7,6 +7,7 @@ import java.util.Date;
 
 import javax.validation.constraints.Past;
 
+import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 
 import com.fasterxml.jackson.annotation.JsonView;
@@ -17,14 +18,19 @@ import io.swagger.annotations.ApiModelProperty;
  * @author zhailiang
  *
  */
+@Data
 public class User {
 
 	public interface UserSimpleView {};
 	public interface UserDetailView extends UserSimpleView {};
-
+	private  String id;
+	@ApiModelProperty(value = "用户名" )
 	private String username;
-
+	@NotBlank
 	private String password;
+	@Past
+	private Date birthday;
+
 	public User (){
 
 	}

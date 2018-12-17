@@ -12,6 +12,13 @@
     <artifactId>Security-demo</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+
         <dependency>
             <groupId>com.bucom.security</groupId>
             <artifactId>Security-brower</artifactId>
@@ -48,6 +55,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.31</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.3.2</version>
+        </dependency>
+
     </dependencies>
 
    <!--// 打包可以把boot中的依赖jAR都打进去-->

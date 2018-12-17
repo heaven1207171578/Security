@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Security.iml" filepath="$PROJECT_DIR$/.idea/Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Securityparent/Security-APP/Security-APP.iml" filepath="$PROJECT_DIR$/Securityparent/Security-APP/Security-APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Securityparent/Security-brower/Security-brower.iml" filepath="$PROJECT_DIR$/Securityparent/Security-brower/Security-brower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Securityparent/Security-core/Security-core.iml" filepath="$PROJECT_DIR$/Securityparent/Security-core/Security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Securityparent/Security-demo/Security-demo.iml" filepath="$PROJECT_DIR$/Securityparent/Security-demo/Security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Securityparent/Security-parent.iml" filepath="$PROJECT_DIR$/Securityparent/Security-parent.iml" />
     </modules>
   </component>
 </project>
